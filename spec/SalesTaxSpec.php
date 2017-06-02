@@ -1,15 +1,15 @@
 <?php
 
-namespace spec;
+namespace spec\SalesTaxWA;
 
-use TaxLookup;
+use SalesTaxWA\SalesTax;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class TaxLookupSpec extends ObjectBehavior
+class SalesTaxSpec extends ObjectBehavior
 {
     function it_is_initializable(){
-        $this->shouldHaveType(TaxLookup::class);
+        $this->shouldHaveType(SalesTax::class);
     }
     function it_returns_tax_rate_for_seattle_address(){
         $this->getTax('1801 E Spruce St','Seattle','98122')->shouldReturn(0.101);

@@ -1,6 +1,8 @@
 {
-    "name": "adambassett/tax_lookup_wa",
+    "name": "sales-tax-lookup/sales-tax-wa",
     "description": "A simple package to look up sales tax based on address in washington.",
+    "keywords": ["sales tax","sales tax finder","washtington state","WA tax lookup"],
+    "homepage": "https://github.com/sales-tax-lookup/tax-lookup-wa",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +12,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "php": "^7.0"
+    },
     "require-dev": {
         "phpspec/phpspec": "^3.4"
     },

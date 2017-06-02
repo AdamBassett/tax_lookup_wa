@@ -1,6 +1,7 @@
 <?php
+namespace SalesTaxWA;
 
-class TaxLookup
+class SalesTax
 {
     public function getTax(string $adress, string $city, string $zip): float {
         $tax_url = 'http://dor.wa.gov/AddressRates.aspx?output=xml&addr='.urlencode($adress).
