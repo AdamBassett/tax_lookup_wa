@@ -1,0 +1,22 @@
+{
+    "name": "adambassett/tax_lookup_wa",
+    "description": "A simple package to look up sales tax based on address in washington.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Bassett",
+            "email": "adam@bassettandbrush.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^3.4"
+    },
+    "autoload":{
+    	"psr-4":{
+    		"":"src/"
+    	}
+    }
+}
