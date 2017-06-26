@@ -1,8 +1,8 @@
 <?php
 
-namespace spec\SalesTaxWA;
+namespace spec\SalesTaxWa;
 
-use SalesTaxWA\SalesTax;
+use SalesTaxWa\SalesTax;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 

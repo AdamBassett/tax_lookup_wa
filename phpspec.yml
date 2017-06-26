@@ -1,6 +1,6 @@
 suites:
     default:
-        namespace: SalesTaxWA
-        psr4_prefix: SalesTaxWA
+        namespace: SalesTaxWa
+        psr4_prefix: SalesTaxWa
         src_path: %paths.config%/src
         spec_path: %paths.config%

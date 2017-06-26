@@ -1,5 +1,5 @@
 <?php
-namespace SalesTaxWA;
+namespace SalesTaxWa;
 
 class SalesTax
 {
